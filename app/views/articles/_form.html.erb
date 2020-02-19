@@ -1,0 +1,5 @@
+<%= simple_form_for article do |f| %>
+  <%= f.input :nom, label: 'designation', error: 'rentrez nom d article' %>
+  <%= f.input :prix, label: 'Prix', error: 'le prix ?'%>
+  <%= f.button :submit, "Valider", class: "btn btn-primary" %>
+<% end %>

@@ -1,0 +1,2 @@
+class CommandeTablesController < ApplicationController
+end
